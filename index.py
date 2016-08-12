@@ -2,7 +2,7 @@
 # python index.py --dataset dataset --index index.csv
 
 # import the necessary packages
-from pyimagesearch.colordescriptor import ColorDescriptor
+from feature_extraction import ColorDescriptor
 import argparse
 import glob
 import cv2
